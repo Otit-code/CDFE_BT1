@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* CSS Banner */
+#banner {
+    width: 100%;
+    height: auto;
+    background: url(./images/20230811091245-1-9.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 50px 20px;
+
+}
+
+#banner .title {
+    margin: 0 0 20px 200px;
+    max-width: 50%;
+    font-size: 60px;
+}
+
+#banner .info {
+    margin: 0 0 100px 200px;
+    max-width: 50%;
+    font-size: 24px;
+    color: #363830;
+}
+
+#banner .list_banner {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 999px;
+    padding: 50px 70px;
+    margin: 0 0 0 auto;
+
+}
+
+#banner .item_banner {
+    flex: 1 1 calc(33.33% - 10px);
+}
+
+.item_banner h3 {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+/* CSS main */
+#main {
+    padding: 20px 0;
+}
+
+#main .title {
+    margin-bottom: 20px;
+}
+
+#main .menu_main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#main .item_main {
+    flex: 1 1 300px;
+}
+
+.item_main img {
+    width: 100%;
+}
+
+/* CSS form */
+form {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+form .container{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #555;
+    padding: 50px 20px;
+} 
+
+.main_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_left {
+    width: 50%;
+}
+
+.form_left span {
+    color: #f00;
+}
+
+.form_left label {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.form_left input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+}
+
+#btn {
+    margin-top: 20px;
+    background: #00f;
+}
+
+
+.form_right {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.form_right img {
+    width: 40%;
+}
+
+.form_right ul {
+    list-style: none;
+}
+
+.form_right a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* CSS !1 */
+#block1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+ 
+#block1 .text {
+    width: 50%;
+}
+
+#block1.text h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#block1 .text p {
+    font-size: 24px;
+    color: #363830;
+}
+
+#block1 .images {
+    flex: 300px;
+    width: 50%;
+}
+
+#block1 .images img {
+    width: 100%;
+}
+
+/* CSS !2 */
+#block2 {
+    background: #000;
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item_block2 {
+    flex: 1 1 calc(33.33% - 30px);
+}
+
+.item_block2 img {
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.item_block2 h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.item_block2 p {
+    font-size: 18px;
+}
+
+/* CSS !3 */
+#block3 {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+#block3 .images {
+    width: 40%;
+}  
+
+#block3 .images img {
+    width: 100%;
+}
+
+#block3 .text {
+    width: 60%;
+}
+
+#block3 .text h3 {
+    font-size: 40px;
+    color: #363830;
+    margin-bottom: 10px;
+} 
+
+#block3 .text p {
+    font-size: 22px;
+    color: #363830;
+    margin-bottom: 10px;
+} 
+
+#block3 button {
+    background: #00f;
+    padding: 5px 10px;
+    border: none;
+}
+
+#block3 ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#block3 .num {
+    font-weight: bold;
+    color: #aaa;
+    font-size: 30px;
+}
